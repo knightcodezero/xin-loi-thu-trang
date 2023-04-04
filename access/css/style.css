@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url("https://p.kindpng.com/picc/s/208-2086275_imsorry-sorry-im-graphics-hd-png-download.png");
+    background-repeat: repeat;
+    /* opacity: 0.03; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alkatra', sans-serif;
+}
+.sorry__row {
+    width: 60vw;
+    height: 60vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.sorry {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    column-gap: 20px;
+}
+.sorry:first-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.sorry:last-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.sorry__thumb {
+    width: 100px;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.sorry__heading {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.5;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+}
